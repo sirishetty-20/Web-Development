@@ -1,0 +1,1 @@
+alert("Click to open different websites..😉")

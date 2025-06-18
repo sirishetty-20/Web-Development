@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(165, 167, 166);
+    font-style: italic;
+    font-weight: bolder;
+}
+p{
+    background-color: cadetblue;
+}
+h1{
+    background-color: chocolate;
+}
+h2{
+    background-color: darkgoldenrod;
+}
+h3{
+    background-color: darkkhaki;
+}
+h4{
+    background-color: darkslategray;
+    color: aliceblue;
+}
+h5{
+    background-color: darksalmon;
+}
+h6{
+    background-color: lightpink;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <div>
+    <h1>Form to apply for sigma web development course-TA</h1>
+    <form action="post">
+        <label for="username">Enter Name : </label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+</div>
+<div>
+          <label>Gender:</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+ <!--HERE THE "NAME FOR BOTH MALE AND FEMALE HAS GIVEN SAME" BECAUSE WHEN THIS ALLOWS THE USER TO SELECT ONLY ONE OPTION AT A TIME-->
+
+ <!--WHEN WE JUST CLICK ON WORD FEMALE AND MALE THE RADIO BUTTON IS GETTING SELECTED THIS HAPPENS BECAUSE THE LABEL AND ID ARE GIVEN SAME IF ONE IS CHANGED WE CANNOT SELECT AN OPTION JUST BY CLICKING ON THE WORD
+ FOR EG: IF I CHANGED LABEL AS SOMETHING LIKE "FEMINIST" INSTEAD OF FEMALE AND ID BE "FEMALE" ITS CONSIDERED AS MISMATCHED AN WE CANNOT SELECT OPTION IN THIS  -->
+</div>
+
+<div>
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+<label for="subscribe">Subscribe to newsletter</label> 
+</div>
+
+<div>
+    <label for="Queries">Add Feedback</label>
+<div>
+ <textarea name="comment" rows="4" cols="50" placeholder="add your message"></textarea>
+</div>   
+</div>
+
+<select name="fruits">
+      <option value="apple">Apple</option>
+      <option value="banana">Banana</option>
+      <option value="cherry">Cherry</option>
+</select>
+    </form>
+</body>
+</html>
