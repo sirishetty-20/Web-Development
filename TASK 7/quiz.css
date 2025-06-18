@@ -1,0 +1,42 @@
+body{
+    text-align:center;
+}
+div1{
+    margin-bottom: 300px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+body {
+
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+button {
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #13840d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.div1{
+    padding: 10px;
+}
+
+.div2{
+    padding: 10px;
+}
+
+.div3{
+    padding: 10px;
+}
+
+.div4{
+     padding: 10px;
+}
+   
+
+.div5{
+    padding: 10px;
+}
