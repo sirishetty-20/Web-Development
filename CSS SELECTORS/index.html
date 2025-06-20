@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /*Element selector*/
+    div {
+      background-color: rgb(226, 131, 131);
+    }
+
+    /*Class selector*/
+    .yellow {
+      background-color: yellowgreen;
+    }
+    /*Id selector*/
+    #blue {
+      background-color: rgb(107, 107, 194);
+    }
+    /*Child selector*/
+    /* if i add a article tag and say paragraph tag is present inside article css property that we try to apply is not applied*/
+    div > p {
+      background-color: rgb(99, 1, 53);
+      color: rgb(10, 52, 47);
+    }
+
+    /*Descendant selector*/
+    /* if i add a article tag and say paragraph tag is present inside
+article css property that we try to apply is applied*/
+    div p {
+      background-color: rgb(96, 174, 44);
+      color: rgb(13, 44, 41);
+    }
+
+    /*Universal selector*/
+    * {
+      margin: 20;
+      padding: 70;
+    }
+a{
+    color: red;
+}
+    /*Pseudo selector*/
+    /*For Pseudo classes we use colon(:)
+    For Pseudo element we use double colon(::) */
+a:visited{
+    color: blue;
+}
+/* if the embedded link has not been visited*/
+a:link{
+    color: cadetblue;
+}
+
+a:active{
+    background-color: darkblue;
+}
+
+a:hover{
+    color: coral;
+}
+
+p:first-child{
+    background-color: cadetblue;
+}
+  </style>
+  <body>
+    <div>I'm a div</div>
+
+    <div class="yellow">
+      Hello Im another div
+      <article>
+        <h1>hello</h1><p>Im a paragraph</p>
+      </article>
+    </div>
+
+    <div id="blue">Hello Im 3rd div</div>
+
+    <a href="https://www.youtube.com">YouTube</a>
+    <a href="https://instagram.com">Instagram</a>
+
+    <div class="one">
+        <p>im first child</p> <!--refer p:first-child{background-color: cadetblue;} -->
+        <p>im second child</p>
+    </div>
+  </body>
+</html>
